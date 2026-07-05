@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { TanStackRouterVite } from '@tanstack/router-vite-plugin';
 
 export default defineConfig({
-  base: '/Drone-and-Robotics-club.github.io/',
+  base: './',
   plugins: [
     TanStackRouterVite({
       routesDirectory: './src/routes',

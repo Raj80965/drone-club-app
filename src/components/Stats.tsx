@@ -2,9 +2,7 @@ import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
 const stats = [
-  { value: '50+', label: 'Projects' },
-  { value: '20+', label: 'Awards' },
-  { value: '500+', label: 'Members' },
+  { value: '30+', label: 'Members' },
 ]
 
 export default function Stats() {
@@ -14,7 +12,7 @@ export default function Stats() {
   return (
     <section ref={ref} className="py-20 border-y border-white/5 bg-navy/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div className="grid grid-cols-1 max-w-sm mx-auto gap-8 text-center">
           {stats.map((stat, index) => (
             <motion.div
               key={index}

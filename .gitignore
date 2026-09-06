@@ -31,6 +31,8 @@ android/local.properties
 android/.idea/
 android/*.iml
 android/app/*.iml
+*.apk
+build-apk/
 
 # Capacitor
 /capacitor.config.json

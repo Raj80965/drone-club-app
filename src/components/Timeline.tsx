@@ -22,11 +22,11 @@ export default function Timeline() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-400">
             <div className="bg-navy/50 p-4 rounded-lg">
               <strong className="text-white block mb-1">📍 Venue</strong>
-              SISTec-R Campus, Bhopal
+              SISTec-E Campus, Bhopal
             </div>
             <div className="bg-navy/50 p-4 rounded-lg">
               <strong className="text-white block mb-1">🎤 Inaugurated By</strong>
-              Principal & Management, SISTec-R
+              Principal & Management, SISTec-E
             </div>
             <div className="bg-navy/50 p-4 rounded-lg">
               <strong className="text-white block mb-1">🎯 Objective</strong>

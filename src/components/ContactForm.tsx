@@ -67,7 +67,7 @@ export default function ContactForm() {
               <div className="bg-electric/20 p-3 rounded-lg"><MapPin className="text-electric" /></div>
               <div>
                 <h4 className="font-bold text-white mb-1">Our Location</h4>
-                <p className="text-gray-400">Sagar Institute of Science, Technology & Research (SISTec-R)<br/>Ratibad, Sikandarabad, Bhopal, Madhya Pradesh – 462044</p>
+                <p className="text-gray-400">Sagar Institute of Science, Technology & Engineering (SISTec-E)<br/>Ratibad, Sikandarabad, Bhopal, Madhya Pradesh – 462044</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

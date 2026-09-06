@@ -13,7 +13,7 @@ export default function Footer() {
             <img src={`${import.meta.env.BASE_URL}image/team-photo/iste.png`} alt="ISTE" className="h-16 md:h-20 object-contain bg-white rounded-lg p-2" onError={(e) => { e.currentTarget.style.display = 'none' }} />
             <img src={`${import.meta.env.BASE_URL}image/team-photo/iic.png`} alt="Institution Innovation Council" className="h-16 md:h-20 object-contain bg-white rounded-lg p-2" onError={(e) => { e.currentTarget.style.display = 'none' }} />
             <img src={`${import.meta.env.BASE_URL}image/team-photo/sistec.png`} alt="SISTec College" className="h-16 md:h-20 object-contain bg-white rounded-lg p-2" onError={(e) => { e.currentTarget.style.display = 'none' }} />
-            <img src={`${import.meta.env.BASE_URL}logo1.png`} alt="Drone and Robotics Club" className="h-16 md:h-20 object-contain" />
+            <img src={`${import.meta.env.BASE_URL}logo1.png`} alt="Drone and Robotics Club" className="h-16 md:h-20 object-contain bg-white rounded-lg p-2" onError={(e) => { e.currentTarget.style.display = 'none' }} />
           </div>
         </div>
 
@@ -22,7 +22,7 @@ export default function Footer() {
             <h3 className="font-space font-bold text-2xl text-electric mb-2">Drone and Robotics Club</h3>
             <p className="text-white/80 font-medium mb-4">Innovation | Robotics | Drone Technology</p>
             <p className="text-gray-400 mb-6 max-w-md text-sm leading-relaxed">
-              Sagar Institute of Science Technology & Engineering/ Research<br />
+              Sagar Institute of Science, Technology & Engineering (SISTec-E)<br />
               Bhopal, Madhya Pradesh, India
             </p>
             <div className="flex space-x-4">

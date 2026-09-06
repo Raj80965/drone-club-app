@@ -37,7 +37,7 @@ function About() {
         <div className="glass-panel p-8 rounded-xl neon-border">
           <h2 className="text-2xl font-space font-bold text-electric mb-4">About Our College</h2>
           <p className="text-gray-400 mb-6">
-            <strong className="text-white">Sagar Institute of Science, Technology & Research (SISTec-R)</strong> is one of the premier technical institutions in Bhopal, Madhya Pradesh, dedicated to excellence in engineering, innovation, and research.
+            <strong className="text-white">Sagar Institute of Science, Technology & Engineering (SISTec-E)</strong> is one of the premier technical institutions in Bhopal, Madhya Pradesh, dedicated to excellence in engineering, innovation, and research.
           </p>
           <ul className="text-gray-400 space-y-3">
             <li><strong className="text-white">📍 Location:</strong> Ratibad, Bhopal, Madhya Pradesh – 462044</li>
